@@ -14,7 +14,7 @@ public class SortFast {
             Random rand = new Random();
             mas[i] = rand.nextInt(5);
         }
-        System.out.println(Arrays.toString(mas) + " ");
+        System.out.println(Arrays.toString(mas));
 
         Arrays.sort(mas);
 
